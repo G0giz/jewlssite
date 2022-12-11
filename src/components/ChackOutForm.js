@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import Cards from 'react-credit-cards';
 import 'react-credit-cards/es/styles-compiled.css'
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
@@ -56,7 +55,7 @@ export default function CheckOutForm (){
                     label="עיר"
                 />
             </div>
-            <Cards
+            {/* <Cards
                 number={number}
                 name={name}
                 expiry={expiry}
@@ -96,7 +95,7 @@ export default function CheckOutForm (){
                 value={cvc}
                  onChange={e=>setCvc(e.target.value)}
                  onFocus={e=>setFocus(e.target.name)}/>
-        </form>
+        </form> */}
          </div>
         );
       
