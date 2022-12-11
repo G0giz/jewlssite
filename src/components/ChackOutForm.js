@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import 'react-credit-cards/es/styles-compiled.css'
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 
