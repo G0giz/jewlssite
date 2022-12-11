@@ -1,0 +1,302 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100%;
+  z-index: 0;
+  left: 50%;
+  height: 107%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 54%;
+  }
+  
+  .centered {
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media (min-width: 481px) and (max-width: 767px){
+    .centered{
+      position: fixed;
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width:392px;
+      height: 92%;       
+    }}
+
+    @media (min-width: 768px) and (max-width: 1024px){
+      .centered{
+        position: fixed;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 61%;
+    height: 92%;
+      }}
+
+      @media (min-width: 1025px) and (max-width: 1280px){
+          .centered{
+            position: fixed;
+          top: 52%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 44%;
+          height: 92%;
+              }
+      }
+
+
+  @media (min-width: 1281px) {
+    .centered {
+      position: fixed;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 44%;
+    height: 92%;
+        }
+}
+
+  
+  .modal {
+    width: 314px;
+    height: 637px;
+    background: white;
+    color: white;
+    z-index: 10;
+    border-radius: 9px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  }
+
+  @media (min-width: 481px) and (max-width: 1279px){
+    .modal{
+      height: 100%;
+      width: 100%;
+      
+    }}
+    
+    @media (min-width: 1025px) and (max-width: 1280px){
+      .modal{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    
+    @media (min-width: 1281px) {
+      .modal {
+          height: 100%;
+          width: 100%;
+        
+          }
+  }
+
+      
+  @media (min-width: 1281px) {
+    .imageZoomLarge {
+      height: 38%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+        }
+}
+
+  
+  .modalHeader {
+    height: 50px;
+    background: white;
+    overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .heading {
+    margin: 0;
+    padding: 10px;
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    width: 258px;
+    height: 272px;
+  }
+ 
+  
+  @media (max-width: 480px){
+    .heading{
+      height: 78%;
+    width: 81%;
+    }}
+
+  @media (min-width: 481px) and (max-width: 767px){
+    .heading{
+      height: 85%;
+    width: 73%;
+    }}
+    
+    @media (min-width: 768px) and (max-width: 1024px){
+      .heading{
+        height: 80%;
+        width: 47%;
+      }}
+      
+      
+      @media (min-width: 1025px) and (max-width: 1280px){
+        .heading{
+          height: 85%;
+          width: 58%;
+        }
+      }
+
+    @media (min-width: 1281px) {
+      .heading {
+        height: 96%;
+        width: 100%;
+        
+          }
+  }
+  
+  .modalContent {
+    padding: 10px;
+    font-size: 14px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .modalActions {
+    position: absolute;
+    bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .actionsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .closeBtn {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color: #2c3e50;
+    background: rgba(128, 128, 128, 0.6);
+    transition: all 0.25s ease;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+    position: absolute;
+    right: 0;
+    top: 0;
+    align-self: flex-end;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  
+  .closeBtn:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+    transform: translate(-4px, 4px);
+  }
+  
+  .deleteBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 28px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    border: none;
+    color: #fff;
+    background: #ff3e4e;
+    transition: all 0.25s ease;
+  }
+  
+  .deleteBtn:hover {
+    box-shadow: 0 10px 20px -10px rgba(255, 62, 78, 0.6);
+    transform: translateY(-5px);
+    background: #ff3e4e;
+  }
+  
+  .cancelBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 28px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    border: none;
+    color: #2c3e50;
+    background: #fcfcfc;
+    transition: all 0.25s ease;
+  }
+  
+  .cancelBtn:hover {
+    box-shadow: none;
+    transform: none;
+    background: whitesmoke;
+  }
+
+  .primaryBtn {
+    margin: 20px 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 13px 25px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    background: #185adb;
+    transition: all 0.25s ease;
+  }
+  
+  .primaryBtn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+  }
+
+
+  .ChoodeSize{
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+  .InputAmount{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  }
+
+  .StyleOfNameAndPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .TotalPrice{
+    margin-bottom: 12px;
+  }
+
+  .FormStyle{
+    margin-bottom: 11px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .MaterialDetails{
+    display: flex;
+    justify-content: end;
+  }
+
+  .pOfMatrial{
+    margin: 0;
+    margin-bottom: 7px;
+  }

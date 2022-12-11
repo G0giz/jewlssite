@@ -1,0 +1,222 @@
+figure {
+    width: 300px;
+    background-repeat: no-repeat;
+  }
+  
+  figure:hover img {
+    opacity: 0;
+  }
+  
+  img {
+    display: block;
+    pointer-events: none;
+  }
+
+
+
+.css-pwngrv-MuiPaper-root-MuiCard-root{
+    min-width:0% !important
+
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+    width: 72% !important;
+}
+
+
+.RadioButton{
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 69%;
+    height: 11px;
+    width: 10px;
+    margin-left: 6px;
+    border: none;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+
+.DivColors{
+  display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+}
+
+@media (min-width: 1281px) {
+    .divCard {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+        margin-top:24px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .divCard {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+        margin-top:24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .divCard {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+        margin-top:24px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .divCard {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 480px){
+    .divCard {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+    }
+}
+
+
+
+@media (min-width: 1281px) {
+    .imagCard {
+        height: 123px !important;
+        }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .imagCard{
+        height: 123px !important;
+    }}
+
+
+    @media (min-width: 768px) and (max-width: 1024px){
+        .imagCard{
+            height: 123px !important;
+
+        }}
+
+        @media (min-width: 481px) and (max-width: 767px){
+            .imagCard{
+                height: 123px !important;
+                width: 73%;
+            }}
+
+@media (min-width: 1281px) {
+    .CardsResponsive {
+        width: 382px !important;
+        height: 357px;
+        padding: 5px;
+        margin-top: 9px;
+        }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .CardsResponsive{
+        width: 332px !important;
+        height: 317px;
+        padding: 5px;
+        margin-top: 9px;
+    }}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .CardsResponsive{
+        width: 258px !important;
+        height: 303px;
+        padding: 5px;
+        margin-top: 9px;
+    }}
+
+    
+
+
+    @media (min-width: 481px) and (max-width: 767px){
+        .CardsResponsive{
+            width: 223px !important;
+            height: 245px;
+            padding: 5px;
+            margin-top: 9px;
+        }}
+
+
+    @media (max-width: 480px){
+        .CardsResponsive{
+            width: 170px !important;
+            height: 245px;
+            padding: 5px;
+            margin-top: 9px;
+        }}
+    
+    
+  
+
+@media (min-width: 700px){
+.CardHeight{
+height: 100%;
+}}
+
+@media (min-width: 900px){
+.LiCardHeight{
+ height: 100%;
+}}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .CardHeight{
+        height: 88% !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .CardHeight {
+        height: 88% !important;
+
+        }
+}
+
+@media (min-width: 1281px){
+    .CardHeight {
+        height: 78% !important;
+
+        }
+}
+
+/* sort price */
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    height: 5vh !important;
+}
+.css-fvipm8{
+    width: 131% !important;
+    height: 6vh !important;
+}
+
+.css-ece9u5{
+    margin-top: 7px !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    top: -8px !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    width: 127% !important;
+}
+
+.css-q8hpuo-MuiFormControl-root{
+    position: sticky !important;
+}

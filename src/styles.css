@@ -1,0 +1,288 @@
+html,
+body {
+  margin: 0;
+}
+
+#App {
+  font-family: sans-serif;
+  height: 94;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  right: 15px;
+  top: 36px;
+  /* right: 0; */
+  float: right;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bottom-border{
+    border-bottom: 2px solid blue;
+}
+
+#onHover{
+    cursor: pointer;
+}
+
+#cart-icon{
+    display: flex !important;
+    justify-content: center;
+}
+
+#text-and-icon-cart{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 101px;
+    justify-content: space-evenly;
+}
+
+#wish-list-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 129px;
+    justify-content: space-evenly;
+}
+#round-amount-cart
+{
+    align-items: center;
+    width: 9px;
+    border: 1.5px solid black;
+    border-radius: 43px;
+    height: 10px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    margin-left: -8px;
+    position: relative;
+    background-color: black;
+}
+
+#image_icons_navbar{
+  height: 23px;
+}
+
+#navbar{
+    min-height: 6vh;
+}
+
+.bm-burger-button{
+     top: 23px !important;
+    }
+ @media (min-width: 600px){
+.css-1235hhr-MuiButtonBase-root-MuiIconButton-root {
+    display: block !important;
+    padding: 0px !important;
+    margin-top: 10px;
+
+}}
+@media (min-width: 900px){
+  .css-1235hhr-MuiButtonBase-root-MuiIconButton-root {
+    display: none !important;
+      padding: 0px !important;
+      margin-top: 10px;
+
+  }}
+
+  @media (min-width: 600px){
+  .css-hyum1k-MuiToolbar-root {
+      min-height: 55px !important;
+  }
+}
+
+
+@media (min-width: 1200px){
+.css-1p4tas-MuiContainer-root {
+    max-width: inherit !important;
+}
+}
+
+.css-o32dt4 {
+  padding: 16px;
+  height: 100%;
+  background-color: aliceblue !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background-color:#373a47 !important;
+}
+
+
+
+.each-slide{
+  height: 100% !important;
+}
+
+.react-slideshow-wrapper.slide{
+  height: 300px;
+}
+
+.react-slideshow-wrapper .images-wrap{
+  height: 100%;
+}
+
+.react-slideshow-container{
+  height: 100%;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: "white";
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #0d0e0f;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+.Header{
+  width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+}
+
+/* .justify-content-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 26px;
+} */
+
+
+@media (min-width: 1281px) {
+  .justify-content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 26px;
+  }
+}
+
+
+
+@media (max-width: 900px){
+  .justify-content-center{
+      visibility: hidden;
+      height: 0;
+  }}
+
+  @media (min-width: 481px) and (max-width: 767px){
+      .justify-content-center{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 0px;
+         
+      }}
+
+
+  @media (max-width: 480px){
+      .Header{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px;
+        font-size: 17px;
+      }}
+  
+
+.Header:hover{
+  cursor: pointer;
+}
+.ItemInNav{
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+
+.css-mx8tbv{
+  min-width: 174px !important;
+
+}
+
+
+/* @media (min-width: 400px){
+  .css-1ab2xsx{
+     width: 70%;
+  }} */
+/* 
+  @media (min-width: 481px) and (max-width: 767px){
+      .css-wf16b5{
+          width: 81%;
+         
+      }}
+
+      @media (min-width: 481px){
+        .css-wf16b5{
+            width: 81%;
+           
+        }} */

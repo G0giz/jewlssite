@@ -1,0 +1,65 @@
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.display_li{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 19px;
+}
+
+@-webkit-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.show-box {
+    -webkit-animation: SHOW-BOX 2s ease;
+    -moz-animation: SHOW-BOX 2s ease;
+    -o-animation: SHOW-BOX 2s ease;
+    animation: SHOW-BOX 2s ease;
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+    flex-direction: row-reverse;
+}
+
+.css-1235hhr-MuiButtonBase-root-MuiIconButton-root{
+ margin-right: 0px !important;
+}
+
+@media (max-width: 1199px){
+div.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 8px;
+}
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
