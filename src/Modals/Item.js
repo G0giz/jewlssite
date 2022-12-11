@@ -66,7 +66,7 @@ const RiseAmount=()=>{
 }
 
 const LowAmount=()=>{
-
+  
   item.amount[index]=item.amount[index]-1
   setTotalPriceCard(TotalPriceCard-item.price*item.amount[index])
 }
